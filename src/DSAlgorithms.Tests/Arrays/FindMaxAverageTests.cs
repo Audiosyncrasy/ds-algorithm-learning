@@ -2,14 +2,14 @@ using DSAlgorithms.Solutions.Arrays;
 
 namespace DSAlgorithms.Tests.Arrays;
 
-public class SlidingWindowTests
+public class FindMaxAverageTests
 {
-    private readonly SlidingWindow _solution;
+    private readonly FindMaxAverage _solution;
     private const double Tolerance = 0.00001;
 
-    public SlidingWindowTests()
+    public FindMaxAverageTests()
     {
-        _solution = new SlidingWindow();
+        _solution = new FindMaxAverage();
     }
 
     [Theory]

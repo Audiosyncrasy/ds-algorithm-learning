@@ -7,17 +7,17 @@ namespace DSAlgorithms.Solutions.Arrays;
 
 [Problem(
     Source = "Claude",
-    Title = "Sliding Window",
+    Title = "FindMaxAverage",
     Difficulty = Difficulty.Easy,
     Tags = new[] { "Array", "Two Pointers" },
     Description = "Given an array of integers `nums` and an integer `k`, find the contiguous subarray of length `k` " +
                   "that has the maximum average value. Return the maximum average.",
-    ProblemDate = "2025-11-05"
+    ProblemDate = "2025-11-06"
 )]
-public class SlidingWindow : IProblem
+public class FindMaxAverage : IProblem
 {
     /// <summary>
-    /// Returns the maximum average value from a subset of an array of length `k`.
+    /// Returns the maximum average value from a subset of an array (SlidingWindow) of length `k`.
     /// Time Complexity: O(n)
     /// Space Complexity: O(1)
     /// </summary>
