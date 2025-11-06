@@ -18,8 +18,8 @@ public class SlidingWindow : IProblem
 {
     /// <summary>
     /// Returns the maximum average value from a subset of an array of length `k`.
-    /// Time Complexity:
-    /// Space Complexity:
+    /// Time Complexity: O(n)
+    /// Space Complexity: O(1)
     /// </summary>
     public double Solve(int[] nums, int k)
     {
