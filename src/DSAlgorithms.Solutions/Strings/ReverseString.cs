@@ -3,8 +3,9 @@ using DSAlgorithms.Solutions.Core;
 namespace DSAlgorithms.Solutions.Strings;
 
 [Problem(
-    Source = "Claude",
-    Title = "ReverseString",
+    Source = "LeetCode",
+    Number = 344,
+    Title = "Reverse String",
     Difficulty = Difficulty.Easy,
     Tags = new[] { "String", "Two Pointers" },
     Description = "Reverses a string by modifying the char array in place.",

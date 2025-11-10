@@ -2,14 +2,14 @@ using DSAlgorithms.Solutions.Arrays;
 
 namespace DSAlgorithms.Tests.Arrays;
 
-public class FindMaxAverageTests
+public class MaximumAverageSubarrayTests
 {
-    private readonly FindMaxAverage _solution;
+    private readonly MaximumAverageSubarray _solution;
     private const double Tolerance = 0.00001;
 
-    public FindMaxAverageTests()
+    public MaximumAverageSubarrayTests()
     {
-        _solution = new FindMaxAverage();
+        _solution = new MaximumAverageSubarray();
     }
 
     [Theory]

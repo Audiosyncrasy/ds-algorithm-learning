@@ -5,15 +5,16 @@ using System.Xml.Linq;
 namespace DSAlgorithms.Solutions.Arrays;
 
 [Problem(
-    Source = "Claude",
-    Title = "Max Area",
-    Difficulty = Difficulty.Easy,
+    Source = "LeetCode",
+    Number = 11,
+    Title = "Container With Most Water",
+    Difficulty = Difficulty.Medium,
     Tags = new[] { "Array", "Two Pointers" },
     Description = "You are given an array of integers height where each element represents the height of a vertical line. " +
                   "Find two lines that together with the x - axis form a container that holds the most water.",
     ProblemDate = "2025-11-05"
 )]
-public class MaxArea : IProblem
+public class ContainerWithMostWater : IProblem
 {
     /// <summary>
     /// Using an array of height values and the index position of the height value in the array, determine the "container" that will hold the most "water."

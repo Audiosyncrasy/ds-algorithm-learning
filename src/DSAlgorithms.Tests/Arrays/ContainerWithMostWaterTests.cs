@@ -2,13 +2,13 @@ using DSAlgorithms.Solutions.Arrays;
 
 namespace DSAlgorithms.Tests.Arrays;
 
-public class MaxAreaTests
+public class ContainerWithMostWaterTests
 {
-    private readonly MaxArea _solution;
+    private readonly ContainerWithMostWater _solution;
 
-    public MaxAreaTests()
+    public ContainerWithMostWaterTests()
     {
-        _solution = new MaxArea();
+        _solution = new ContainerWithMostWater();
     }
 
     [Theory]
